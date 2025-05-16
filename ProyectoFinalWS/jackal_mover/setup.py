@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "teleop_mover = jackal_mover.teleop_mover:main"
         ],
     },
 )

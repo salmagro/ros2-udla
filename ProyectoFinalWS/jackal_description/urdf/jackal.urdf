@@ -13,6 +13,9 @@
   <material name="yellow">
     <color rgba="0.8 0.8 0.0 1.0"/>
   </material>
+  <material name="red">
+    <color rgba="0.8 0.0 0.0 1.0"/>
+  </material>
   <material name="black">
     <color rgba="0.15 0.15 0.15 1.0"/>
   </material>
@@ -233,7 +236,7 @@
       <geometry>
         <mesh filename="package://jackal_description/meshes/jackal-fender.stl"/>
       </geometry>
-      <material name="yellow"/>
+      <material name="red"/> <!-- Replace to yellow -->
     </visual>
   </link>
   <joint name="front_fender_joint" type="fixed">
@@ -246,7 +249,7 @@
       <geometry>
         <mesh filename="package://jackal_description/meshes/jackal-fender.stl"/>
       </geometry>
-      <material name="yellow"/>
+      <material name="red"/> <!-- Replace to yellow -->
     </visual>
   </link>
   <joint name="rear_fender_joint" type="fixed">
@@ -348,11 +351,11 @@
     <turnGravityOff>false</turnGravityOff>
   </gazebo>
   <gazebo reference="front_fender_link">
-    <material>Gazebo/Yellow</material>
+    <material>Gazebo/red</material>  <!-- Replace to yellow -->
     <turnGravityOff>false</turnGravityOff>
   </gazebo>
   <gazebo reference="rear_fender_link">
-    <material>Gazebo/Yellow</material>
+    <material>Gazebo/red</material>  <!-- Replace to yellow -->
     <turnGravityOff>false</turnGravityOff>
   </gazebo>
 </robot>

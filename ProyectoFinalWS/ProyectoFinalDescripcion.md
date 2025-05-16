@@ -98,7 +98,7 @@ Instrucciones a seguir para el proyecto final.
 ## Entregable
 
 11. Graba un vídeo de la pantalla mostrando tu robot moviéndose y envía el enlace del vídeo (de no más de 30 segundos) al correo: sbalmagro.learning@gmail.com
-![Entregable](<Peek 2025-05-17 00-00.gif>)
+![Entregable](<assets/Peek 2025-05-17 00-00.gif>)
 
 12. En la grabación se debe observar claramente:
     - La terminal donde se está ejecutando `teleop_twist_keyboard`.
